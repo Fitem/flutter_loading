@@ -1,6 +1,6 @@
 # flutter_loading
 
-A new Flutter application.
+一个Flutter通用页面加载Loading
 
 ## Getting Started
 

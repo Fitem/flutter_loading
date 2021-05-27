@@ -160,7 +160,7 @@ class _LoadingViewState extends State<LoadingView> {
       case LoadingStatus.network_blocked:
         return _buildNetworkBlockedView();
     }
-    return _buildLoadingView();
+    return widget.child;
   }
 
   /// 更新LoadingStatus

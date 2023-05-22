@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     // 屏幕尺寸初始化
     return ScreenUtilInit(
       designSize: Size(373, 667),
-      builder: () => MaterialApp(
+      builder: (context, child) => MaterialApp(
         title: 'Flutter Widget',
         theme: ThemeData(
           primaryColor: AppColors.primaryBgBlue,
